@@ -1,0 +1,23 @@
+# 先忽略常见的中间文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# 然后使用 ! 来确保某些文件不被忽略
+!*.tex
+!*.bib
+!*.sty
+!*.cls
+
+# PDF 文件是否跟踪根据项目需求决定
+# 如果忽略PDF，但有时需要查看，可以：
+# *.pdf
+# !main.pdf  # 只保留主要的PDF
